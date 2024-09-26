@@ -5,7 +5,7 @@ from rest_framework.views import APIView
 from rest_framework_simplejwt.exceptions import TokenError
 from rest_framework_simplejwt.tokens import RefreshToken
 
-from serializers import LogOutSerializer, RegisterSerializer
+from account.serializers import LogOutSerializer, RegisterSerializer
 
 
 class RegisterView(generics.CreateAPIView):
